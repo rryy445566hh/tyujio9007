@@ -1,5 +1,5 @@
 import pandas as pandas
-
+import matplotlib.pyplot as plt
 plt.rcparams["font.sans-serif"] = ["simHei"] # 设置字体
 
 
@@ -8,7 +8,7 @@ def 有序变量描述统计函数(表名,变量名):
     描述统计变量 = pd.DataFram(result)
     描述统计表['比例'] = 描述统计表['count'] / 描述统计表['count']
     描述统计表['累计比例'] = 描述统计表['比例'].cumsum
-    retun 描述统计表
+    return 描述统计表
 
 
 def 绘制直方图(表名):
