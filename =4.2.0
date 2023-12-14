@@ -1,5 +1,4 @@
 Defaulting to user installation because normal site-packages is not writeable
-Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
 Requirement already satisfied: nbformat in c:\users\lenovo\appdata\roaming\python\python310\site-packages (5.9.2)
 Requirement already satisfied: fastjsonschema in c:\users\lenovo\appdata\roaming\python\python310\site-packages (from nbformat) (2.19.0)
 Requirement already satisfied: jsonschema>=2.6 in c:\users\lenovo\appdata\roaming\python\python310\site-packages (from nbformat) (4.20.0)
