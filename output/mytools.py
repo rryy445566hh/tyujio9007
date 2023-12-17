@@ -118,7 +118,7 @@ def 两个有序类别变量的统计分析(数据表, 自变量, 因变量):
 
     print(F"Somers dy系数:{d_y: 0.4f}", 相关系数判断(d_y))
     print(tabulate(交互表))
-    print(F"p值：{p: .4f}")
+    print(F"p值:{p: .4f}")
     print(p值判断(p))
 
 
